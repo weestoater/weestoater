@@ -1,0 +1,6 @@
+baseURL = 'http://www.weestoater.com/'
+languageCode = 'en-us'
+title = 'weestoater'
+theme = "wsv2"
+relativeURLs = true
+
