@@ -63,11 +63,12 @@ nav {
     }
 }
 main {
-    margin: .5rem;
+    margin: 1rem .75rem 1.5rem;
     border: 1px solid lightgray;
-    background: white;
+    background: $main-bg;
     padding: 1rem 1rem 3rem;
     border-radius: .5rem;
+    box-shadow: 0 0 5px #444;
 
     blockquote {
         margin: .75rem 0;
@@ -97,5 +98,13 @@ main {
         float: right;
         margin: 0 0 1rem 2rem;
     }
+}
+
+footer {
+    background: $footer-bg;
+    color: $footer-txt;
+    padding: .75rem 1rem 1.5rem;
+    font-size: .875rem;
+    text-align: center;
 }
 

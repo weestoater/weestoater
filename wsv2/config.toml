@@ -17,39 +17,46 @@ relativeURLs = true
   name = 'Agile'
   title = 'agile section'
   url = '/agile/'
-  weight = 110
+  weight = 200
 
 [[menu.main]]
   identifier = 'angular'
   name = 'Angular'
   title = 'angular section'
   url = '/angular/'
-  weight = 120
+  weight = 300
 
 [[menu.main]]
   identifier = 'biking'
   name = 'Biking'
   title = 'biking section'
   url = '/biking/'
-  weight = 130
+  weight = 400
 
 [[menu.main]]
   identifier = 'blog'
   name = 'Blog'
   title = 'blog section'
   url = '/blog/'
-  weight = 140
+  weight = 500
+
+[[menu.main]]
+  identifier = 'photography'
+  name = 'Photography'
+  title = 'photography section'
+  url = '/photography/'
+  weight = 600
 
 [[menu.main]]
   identifier = 'ramblings'
   name = 'Ramblings'
   title = 'ramblings section'
   url = '/ramblings/'
-  weight = 150
+  weight = 700
 
 [[menu.main]]
   identifier = 'reactjs'
   name = 'ReactJS'
   title = 'reactjs section'
   url = '/reactjs/'
-  weight = 160
+  weight = 800
