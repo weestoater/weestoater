@@ -3,11 +3,11 @@
 <article>
     <h1>{{ .Title | markdownify }}</h1>
     {{ .Content }}
-    <ul class="page-list">
+    <ul class="blog-list">
     <!-- Ranges through content/posts/*.md -->
     {{ range .Pages }}
         <li>
-            <a href="{{.Permalink}}">{{.Title}}</a>
+            <a href="{{.Permalink}}">{{.Date.Format "02/01/06"}} &middot; {{.Title}}</a>
         </li>
     {{ end }}
     </ul>
