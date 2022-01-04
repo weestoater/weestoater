@@ -9,12 +9,13 @@
 body {
     background: $body-bg;
     color: $body-txt;
-    font: normal normal 100%/150% 'Ubuntu', Verdana, Arial, san-serif;
+    font: normal normal 100%/150% 'Raleway', Verdana, Arial, san-serif;
     display: grid;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 200;
     margin-bottom: 1.5rem;
 }
 
@@ -24,17 +25,37 @@ code {
 }
 
 header {
-    background: lightsalmon;
-    padding: 1rem;
-}
-nav {
-    background: white;
-    height: 2.75rem;
+    background: linear-gradient(to bottom,  #65b45c 0%,#1a3617 100%); 
+    height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 
-    ul {
+    .branding { 
+        height: 90px;     
+    
+        .logo {
+            float: left;
+            margin: 10px;
+            height: 70px;
+            width: 70px;
+        }
+        .sitename {            
+            font-size: 2rem;
+            margin: 0; 
+            padding: 1rem 0 0 3rem;
+            color: $code-orange;
+            font-weight: 200;
+        }
+        .tagline {
+            margin: 1rem 0;
+            font-size: .88rem;
+            color: white;
+            font-style: italic;
+        }
+    }
+    ul.topnav {
+        margin: 1.5rem 0 0;
         list-style: none;
-        display: inline-block;
-
         li {
             display: inline-block;
             width: auto;
@@ -43,32 +64,34 @@ nav {
 
             a {
                 display: block;
-                padding: 0 .5rem;
-                height: 2.5rem;
-                line-height: 2.5rem;
+                padding: 0 .75rem;
+                height: 2rem;
+                line-height: 2rem;
                 text-decoration: none;
                 background: transparent;
-                color: lightseagreen;
-                border: 2px solid transparent;
-
-                &.active {
-                    color: white;
-                    background: lightseagreen;
-                }
+                color: white;
+                border: 1px solid transparent;
+                border-radius: 0.5rem;
+                 
                 &:hover, &:focus {
-                    border: 2px dotted lightseagreen;
+                    background: $code-orange;
+                    color: white;
+                    border: 1px solid darkgray;
                 }
             }
         }
     }
 }
+
+
 main {
-    margin: 1rem .75rem 1.5rem;
+    margin: .5rem;
     border: 1px solid lightgray;
     background: $main-bg;
-    padding: 1rem 1rem 3rem;
+    padding: 2rem;
     border-radius: .5rem;
     box-shadow: 0 0 5px #444;
+    min-height: 75vh;
 
     blockquote {
         margin: .75rem 0;
@@ -103,8 +126,61 @@ main {
 footer {
     background: $footer-bg;
     color: $footer-txt;
-    padding: .75rem 1rem 1.5rem;
     font-size: .875rem;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+
+    .col {
+        padding: 1.2rem 1rem 0.5rem;
+        margin: 0;
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        strong {
+            font-weight: 400;
+            padding: 0 0 .5rem;
+            border-bottom: 2px solid white;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: 0;
+
+            li {
+                margin-bottom: .5rem;
+            }
+        }
+
+        a {
+            color: #eee;
+            text-decoration: none;
+            padding: .5rem;
+
+            &:hover, &:focus {
+                color: black;
+                background: lighten($code-orange, 35%);
+            }
+
+            i.fas {
+                margin-left: .5rem;
+            }
+            
+            &.icon {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                padding: 0;
+                margin: 0;
+            }
+            img {
+                margin: .5rem;
+                max-width: 50px;
+            }
+
+        }
+    }
 }
 

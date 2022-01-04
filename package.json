@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/weestoater/weestoater#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "browser-sync": "^2.27.7",
     "node-sass": "^7.0.1"
   }
