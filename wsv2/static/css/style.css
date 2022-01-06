@@ -92,6 +92,22 @@ main {
   main img[src*="#floatright"] {
     float: right;
     margin: 0 0 1rem 2rem; }
+  main .blog-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem; }
+    main .blog-cards .card {
+      height: 30vh;
+      border: 1px solid darkgray; }
+      main .blog-cards .card h2 {
+        font-size: 1.25rem;
+        font-weight: 400; }
+      main .blog-cards .card img {
+        width: 100%;
+        height: 7.5rem;
+        overflow: hidden;
+        margin: 0 0 1rem;
+        border: none; }
 
 footer {
   background: #3f3f3f;

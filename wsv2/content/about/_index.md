@@ -8,7 +8,7 @@ layout: default
 
 I'm a married father of two kids, who works in Glasgow as a Lead UI Developer in a UX Team.
 
-I'm passionate about CSS / Semantic HTML / Accessibility / Usability.  I've various levels of experience in ReactJS, Angular, Bootstrap, various grid and chart libraries, as well as many other useless things.
+I'm passionate about CSS / Semantic HTML / Accessibility / Usability.  I've various levels of experience in ReactJS, Angular, Bootstrap, graph and chart libraries, as well as many other useless things.
 
 Outside of work I can be found supporting Motherwell FC or the Scottish national Football and Rugby teams; I ride my mountain bike and have an unhealthy love of Land Rover Defenders.
 

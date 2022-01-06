@@ -3,6 +3,9 @@ title: "Testing Times"
 date: 2020-12-16T16:40:39Z
 draft: false
 layout: default
+
+description: "/img/trophy.png"
+summary: "cypress, front end, UX"
 ---
 
 In a number of hobby projects I’ve been *banging my head* off the coding wall on how to tackle front end testing. I’ve been working in ReactJS a **lot**, for my projects, so decided to do a bit of research and I’m really glad I did.

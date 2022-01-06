@@ -3,6 +3,8 @@ title: "Find a Job You Love"
 date: 2021-11-06T16:29:52Z
 draft: false
 layout: default
+description: "/img/vscode-screenshot.png"
+summary: "css, front end, UX"
 ---
 
 > …and you’ll never work a day in your life…
