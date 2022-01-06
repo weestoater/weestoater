@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on weestoater</title>
+    <link>http://www.weestoater.com/</link>
+    <description>Recent content in Home on weestoater</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Dec 2021 16:18:40 +0000</lastBuildDate><atom:link href="http://www.weestoater.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lessongs Learned</title>
+      <link>http://www.weestoater.com/agile/lessongs-learned/</link>
+      <pubDate>Fri, 31 Dec 2021 13:32:28 +0000</pubDate>
+      
+      <guid>http://www.weestoater.com/agile/lessongs-learned/</guid>
+      <description>Over the last few sprints I’ve been allocated what should have been a relatively straightforward piece of work. We did our sprint planning and all gave it a manageable sprint score.
+Like all good adventures, first appearances were highly inaccurate. Between API calls; code base gremlins; lack of clarity and a laptop that didn’t know which way was up – it became a much more stressful and frustrating build that it had ever needed to be.</description>
+    </item>
+    
+    <item>
+      <title>Mob Rules</title>
+      <link>http://www.weestoater.com/agile/mob-rules/</link>
+      <pubDate>Fri, 31 Dec 2021 13:30:24 +0000</pubDate>
+      
+      <guid>http://www.weestoater.com/agile/mob-rules/</guid>
+      <description>Since early July I’ve been working in a different team at my firm. We use mob programming for a variety of reasons, which I’d like to share.
+Our team has been formed from a bunch of skills bases, some seasoned Java developers and some complete novices. We also have a Modern Apprentice, a recent University graduate and two members who have come through a coding bootcamp.
+We share a codebase with another team, with us focusing on mainly Front End tasks to begin with, now completing tasks from end-to-end.</description>
+    </item>
+    
+    <item>
+      <title>Find a Job You Love</title>
+      <link>http://www.weestoater.com/blog/find-a-job-you-love/</link>
+      <pubDate>Sat, 06 Nov 2021 16:29:52 +0000</pubDate>
+      
+      <guid>http://www.weestoater.com/blog/find-a-job-you-love/</guid>
+      <description>css, front end, UX</description>
+    </item>
+    
+    <item>
+      <title>Testing Times</title>
+      <link>http://www.weestoater.com/blog/testing-times/</link>
+      <pubDate>Wed, 16 Dec 2020 16:40:39 +0000</pubDate>
+      
+      <guid>http://www.weestoater.com/blog/testing-times/</guid>
+      <description>cypress, front end, UX</description>
+    </item>
+    
+  </channel>
+</rss>

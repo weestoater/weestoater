@@ -1,0 +1,27 @@
+{
+  "name": "weestoater",
+  "version": "1.0.0",
+  "description": "- 🔭 I’m currently working on replacing my under performing WordPress site.\r - 🌱 I’m currently learning a lot more about DevOps and content publishing.\r - 👯 I’m looking to collaborate on anything non-profit related in West of Scotland.\r - 🤔 I’m looking for help with most things...\r - 💬 Ask me about html, css, a11y...\r - 📫 How to reach me: twitter or email.\r - 😄 Pronouns: he/him/his.\r - ⚡ Fun fact: non-identical twin",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '*/*.css, */*.html'",
+    "sass": "node-sass -w sass -o wsv2/static/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weestoater/weestoater.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weestoater/weestoater/issues"
+  },
+  "homepage": "https://github.com/weestoater/weestoater#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "browser-sync": "^2.27.7",
+    "node-sass": "^7.0.1"
+  }
+}

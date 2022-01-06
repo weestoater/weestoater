@@ -1,0 +1,62 @@
+baseURL = 'http://www.weestoater.com/'
+languageCode = 'en-us'
+title = 'weestoater'
+theme = "wsv2"
+relativeURLs = true
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'About'
+  title = 'about section'
+  url = '/about/'
+  weight = 100
+
+[[menu.main]]
+  identifier = 'agile'
+  name = 'Agile'
+  title = 'agile section'
+  url = '/agile/'
+  weight = 200
+
+[[menu.main]]
+  identifier = 'angular'
+  name = 'Angular'
+  title = 'angular section'
+  url = '/angular/'
+  weight = 300
+
+[[menu.main]]
+  identifier = 'biking'
+  name = 'Biking'
+  title = 'biking section'
+  url = '/biking/'
+  weight = 400
+
+[[menu.main]]
+  identifier = 'blog'
+  name = 'Blog'
+  title = 'blog section'
+  url = '/blog/'
+  weight = 500
+
+[[menu.main]]
+  identifier = 'photography'
+  name = 'Photography'
+  title = 'photography section'
+  url = '/photography/'
+  weight = 600
+
+[[menu.main]]
+  identifier = 'ramblings'
+  name = 'Ramblings'
+  title = 'ramblings section'
+  url = '/ramblings/'
+  weight = 700
+
+[[menu.main]]
+  identifier = 'reactjs'
+  name = 'ReactJS'
+  title = 'reactjs section'
+  url = '/reactjs/'
+  weight = 800

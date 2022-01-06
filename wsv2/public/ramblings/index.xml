@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ramblings on weestoater</title>
+    <link>http://www.weestoater.com/ramblings/</link>
+    <description>Recent content in Ramblings on weestoater</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Dec 2021 13:28:29 +0000</lastBuildDate><atom:link href="http://www.weestoater.com/ramblings/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
