@@ -25,7 +25,7 @@ code {
 }
 
 header {
-    background: linear-gradient(to bottom,  #65b45c 0%,#1a3617 100%); 
+    background: $header-light-bg; 
     height: 90px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -71,7 +71,6 @@ header {
                 background: transparent;
                 color: white;
                 border: 1px solid transparent;
-                border-radius: 0.5rem;
                  
                 &:hover, &:focus {
                     background: $code-orange;
@@ -85,13 +84,31 @@ header {
 
 
 main {
-    margin: .5rem;
-    border: 1px solid lightgray;
-    background: $main-bg;
-    padding: 2rem;
-    border-radius: .5rem;
-    box-shadow: 0 0 5px #444;
+    margin: 1rem 1.5rem 2.5rem;
     min-height: 75vh;
+    
+    display: grid;
+    gap: 1.5rem;
+
+    :not(.homepage) {
+        grid-template-columns: 1fr 5fr;
+    }
+    
+    .homepage {
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+    }
+    aside {
+        background: #eee;
+    }
+    article {
+        border: 1px solid lightgray;
+        background: $main-bg;
+        padding: 2rem;
+        box-shadow: 0 0 5px #444;
+    }
+
+
 
     blockquote {
         margin: .75rem 0;
@@ -183,8 +200,9 @@ footer {
             padding: .5rem;
 
             &:hover, &:focus {
-                color: black;
-                background: lighten($code-orange, 35%);
+                color: orange;
+                // background: lighten($code-orange, 35%);
+                text-decoration: underline;
             }
 
             i.fas {

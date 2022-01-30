@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="homepage">
+    <article>
+        <h1>{{ .Title | markdownify }}</h1>
+        {{ .Content }}
+    </article>
+    <aside>
+        left nav goes here
+    </aside>
+</div>
+
+{{ end }}
