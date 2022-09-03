@@ -1,0 +1,7 @@
+{
+    "integrationFolder": "cypress/weestoater",
+    "baseUrl": "http://localhost:1313/",
+    "video": false,
+    "viewportWidth": 1280,
+    "viewportHeight": 1024
+}
