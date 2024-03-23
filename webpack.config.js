@@ -1,12 +1,16 @@
 const path = require("path");
+const { merge } = require("webpack-merge");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-module.exports = {
-  mode: "development",
-  entry: "/src/index.js", // main js
+const commonConfig = {
+  entry: {
+    app: "/src/index.js",
+  },
   output: {
-    path: path.resolve(__dirname, "dist"), // output folder
-    publicPath: "/",
+    filename: "[name].bundle.js",
+    path: path.resolve(__dirname, "build"),
+    chunkFilename: "assets/img/[name].[ext]",
+    clean: true,
   },
   module: {
     rules: [
@@ -27,6 +31,24 @@ module.exports = {
           "css-loader", // for styles
         ],
       },
+      {
+        test: /\.(png|jpg|jpeg|gif|svg)$/,
+        type: "asset/resource",
+        generator: {
+          filename: "img/[name].[ext]",
+        },
+      },
+      {
+        test: /\.(woff2?|ttf|eot)(\?v=\w+)?$/,
+        type: "asset/resource",
+        generator: {
+          filename: "fonts/[name].[ext]",
+        },
+      },
+      {
+        test: /\.mp4$/,
+        use: "file-loader?name=videos/[name].[ext]",
+      },
     ],
   },
   plugins: [
@@ -34,4 +56,38 @@ module.exports = {
       template: "./src/index.html", // base html
     }),
   ],
+  performance: {
+    hints: false,
+  },
+  resolve: {
+    alias: {
+      config$: "./configs/app-config.js",
+    },
+    extensions: [".js", ".jsx"],
+  },
+};
+
+const devConfig = {
+  mode: "development",
+  devtool: "inline-source-map",
+  devServer: {
+    static: "./dist",
+  },
+  output: {
+    path: path.resolve(__dirname, "dev"),
+  },
+};
+
+const prodConfig = {
+  mode: "production",
+  output: {
+    path: path.resolve(__dirname, "build"),
+  },
+};
+
+module.exports = (env, argv) => {
+  console.info("NODE_ENV:", argv.mode);
+  return argv.mode === "production"
+    ? merge(commonConfig, prodConfig)
+    : merge(commonConfig, devConfig);
 };

@@ -9,6 +9,7 @@ import { HomePage } from "./pages/Home";
 import { AboutPage } from "./pages/About";
 import { A11yPage } from "./pages/A11y";
 import { AgilePage } from "./pages/Agile";
+import { BlogPage } from "./pages/Blog";
 import { FootballPage } from "./pages/Football";
 import { ReactPage } from "./pages/React";
 
@@ -23,6 +24,7 @@ export const App = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/a11y" element={<A11yPage />} />
           <Route path="/agile" element={<AgilePage />} />
+          <Route path="/blog" element={<BlogPage />} />
           <Route path="/football" element={<FootballPage />} />
           <Route path="/react" element={<ReactPage />} />
         </Routes>
