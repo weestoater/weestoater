@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 0.5rem #ccc;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 2rem;
+  padding: 0 1rem;
+}
+header .brand {
+  align-content: center;
+  justify-content: center;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+header .header-nav {
+  list-style-type: "";
+}
+header .utils {
+  align-content: center;
+}
+
+main {
+  padding: 2rem;
+}
+main code {
+  color: #d118fe;
+}
+
+/*# sourceMappingURL=style.css.map */
