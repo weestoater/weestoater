@@ -72,6 +72,7 @@ const devConfig = {
   devtool: "inline-source-map",
   devServer: {
     static: "./dist",
+    port: 9000,
   },
   output: {
     path: path.resolve(__dirname, "dev"),

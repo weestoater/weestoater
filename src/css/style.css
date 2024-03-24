@@ -12,36 +12,71 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
 }
 
-header {
-  padding: 0.5rem 1rem;
-  margin: 0 0 1rem;
+header .saltFlexLayout {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 2rem;
+  padding: 0 1rem;
+  height: 4rem;
   z-index: 1000;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 0.5rem #ccc;
 }
-header .header-menu-icon,
-header .header-app-logo {
+header .saltFlexLayout .header-menu-icon,
+header .saltFlexLayout .header-app-logo {
   display: flex;
   align-self: center;
   justify-content: center;
 }
-header .header-menu-icon img,
-header .header-app-logo img {
+header .saltFlexLayout .header-menu-icon img,
+header .saltFlexLayout .header-app-logo img {
   width: 2.5rem;
   border-radius: 50%;
   margin-right: 1.5rem;
 }
-header .header-menu-icon .saltText,
-header .header-app-logo .saltText {
+header .saltFlexLayout .header-menu-icon .saltText,
+header .saltFlexLayout .header-app-logo .saltText {
   align-content: center;
   justify-content: center;
+}
+header .saltFlexLayout .header-nav {
+  list-style-type: "";
+  box-shadow: none;
+}
+header .saltFlexLayout .utils {
+  align-content: center;
 }
 
 main {
   padding: 1rem 2rem 2rem;
 }
 main code {
-  color: #d118fe;
+  color: #6300FF;
+  font-size: 1.3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+main img.avatar {
+  width: 10rem;
+}
+main img.right {
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+main img.fluid {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+main .card-content {
+  padding: 0 1rem 1rem;
+}
+main .card-content ul {
+  margin-left: 2rem;
+}
+main .card-content p, main .card-content ul {
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

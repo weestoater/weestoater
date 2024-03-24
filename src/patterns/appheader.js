@@ -10,7 +10,7 @@ import {
   useResponsiveProp,
 } from "@salt-ds/core";
 
-import { MenuIcon, NotificationIcon, UserBadgeIcon } from "@salt-ds/icons";
+import { MenuIcon, GithubIcon } from "@salt-ds/icons";
 
 import wsIcon from "../assets/img/weestoater-icon.png";
 
@@ -45,33 +45,50 @@ export const Header = () => {
             )}
           </FlexItem>
         ) : (
-          <FlexItem className="header-menu-icon"></FlexItem>
+          <></>
         )}
         <FlexItem className="header-app-logo">
           <img src={wsIcon} alt="weestoater logo" />
           <Text>weestoater</Text>
         </FlexItem>
+        {!isMobile ? (
+          <FlexItem>
+            <nav>
+              <StackLayout
+                as="ul"
+                direction="row"
+                gap={2}
+                className="header-nav"
+              >
+                {items.map((item) => (
+                  <li key={item}>
+                    <NavigationItem
+                      active={active === item}
+                      href={`#/${item.toLowerCase()}`}
+                      onClick={() => {
+                        setActive(item);
+                      }}
+                    >
+                      {item}
+                    </NavigationItem>
+                  </li>
+                ))}
+              </StackLayout>
+            </nav>
+          </FlexItem>
+        ) : (
+          <FlexItem></FlexItem>
+        )}
+        <FlexItem className="utils">
+          <Button variant="secondary">
+            <GithubIcon />
+          </Button>
+        </FlexItem>
       </StackLayout>
       {/* <div className="brand">
         <div className="app">weestoater</div>
       </div>
-      <nav>
-        <StackLayout as="ul" direction="row" gap={2} className="header-nav">
-          {items.map((item) => (
-            <li key={item}>
-              <NavigationItem
-                active={active === item}
-                href={`#/${item.toLowerCase()}`}
-                onClick={() => {
-                  setActive(item);
-                }}
-              >
-                {item}
-              </NavigationItem>
-            </li>
-          ))}
-        </StackLayout>
-      </nav>
+      
       <div className="utils">utils</div> */}
     </header>
   );
