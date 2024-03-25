@@ -29,7 +29,7 @@ export const Header = () => {
 
   return (
     <header>
-      <StackLayout direction="row">
+      <StackLayout direction="row" className="app-header">
         {isMobile ? (
           <FlexItem className="header-menu-icon">
             {openPrimary ? (
@@ -43,53 +43,57 @@ export const Header = () => {
                 <MenuIcon />
               </Button>
             )}
+            <Drawer open={openPrimary} id="primary">
+              <DrawerCloseButton onClick={() => setOpenPrimary(false)} />
+              {items.map((item) => (
+                <NavigationItem
+                  key={item}
+                  active={active === item}
+                  orientation="vertical"
+                  href={`./#/${item.toLowerCase()}`}
+                  onClick={() => {
+                    setActive(item);
+                  }}
+                >
+                  {item}
+                </NavigationItem>
+              ))}
+            </Drawer>
           </FlexItem>
         ) : (
-          <></>
+          <FlexItem className="header-menu-icon"></FlexItem>
         )}
         <FlexItem className="header-app-logo">
           <img src={wsIcon} alt="weestoater logo" />
           <Text>weestoater</Text>
         </FlexItem>
         {!isMobile ? (
-          <FlexItem>
-            <nav>
-              <StackLayout
-                as="ul"
-                direction="row"
-                gap={2}
-                className="header-nav"
-              >
-                {items.map((item) => (
-                  <li key={item}>
-                    <NavigationItem
-                      active={active === item}
-                      href={`#/${item.toLowerCase()}`}
-                      onClick={() => {
-                        setActive(item);
-                      }}
-                    >
-                      {item}
-                    </NavigationItem>
-                  </li>
-                ))}
-              </StackLayout>
-            </nav>
+          <FlexItem className="header-nav">
+            <StackLayout as="ul" direction="row" gap={1}>
+              {items.map((item) => (
+                <li key={item}>
+                  <NavigationItem
+                    active={active === item}
+                    href={`#/${item.toLowerCase()}`}
+                    onClick={() => {
+                      setActive(item);
+                    }}
+                  >
+                    {item}
+                  </NavigationItem>
+                </li>
+              ))}
+            </StackLayout>
           </FlexItem>
         ) : (
-          <FlexItem></FlexItem>
+          <></>
         )}
-        <FlexItem className="utils">
-          <Button variant="secondary">
-            <GithubIcon />
+        <FlexItem className="header-utils">
+          <Button variant="secondary" className="icon">
+            <GithubIcon aria-label="github link" />
           </Button>
         </FlexItem>
       </StackLayout>
-      {/* <div className="brand">
-        <div className="app">weestoater</div>
-      </div>
-      
-      <div className="utils">utils</div> */}
     </header>
   );
 };
