@@ -12,8 +12,9 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
+    color: $vscode;
     font-family: 'Gabriela', serif;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 2rem;
 }
 
@@ -80,6 +81,10 @@ header .app-header {
 main {
     padding: 1rem 2rem 2rem;
 
+    h2 > .saltIcon {
+        margin-right: 1rem;
+    }
+
     code {
         color: $code;
         font-size: 1.3rem;
@@ -90,23 +95,27 @@ main {
         &.avatar {
             width: 10rem;
         }
-        &.right {
-            float: right;
-            margin: 0 0 1rem 1rem;
-        }
+        
         &.fluid {
             max-width: 100%;
             margin-bottom: 1rem;
         }
     }
+    .right {
+        float: right;
+        margin: 0 0 1rem 1rem;
+    }
     .card-content {
         padding: 0 1rem 1rem;
 
-        ul {
+        ul, ol {
             margin-left: 2rem;
         }
+        ol {
+            list-style-type: lower-roman;
+        }
 
-        p, ul {
+        p, ul, ol {
             font-size: 1.2rem;
             line-height: 1.75rem;
             margin-bottom: 1rem;

@@ -19,7 +19,7 @@ import "@fontsource/open-sans/800-italic.css";
 import "@fontsource/pt-mono";
 
 import "@salt-ds/theme/index.css";
-import "./css/style.css";
+import "./scss/style.scss";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
