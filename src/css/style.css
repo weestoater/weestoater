@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #193549;
+  font-family: "Gabriela", serif;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+header .app-header {
+  margin: 0 0 2rem;
+  padding: 0;
+  height: 4rem;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 0.5rem #ccc;
+}
+header .app-header .header-menu-icon,
+header .app-header .header-app-logo {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+header .app-header .header-app-logo {
+  width: 12rem;
+  border: 1px dashed transparent;
+  justify-content: start;
+}
+header .app-header .header-app-logo img {
+  width: 3rem;
+  border-radius: 50%;
+}
+header .app-header .header-app-logo .saltText {
+  margin: 0.75rem;
+  font-family: "Gabriela", serif;
+  font-size: 1.5rem;
+}
+header .app-header .header-menu-btn {
+  z-index: 5000;
+}
+header .app-header .header-nav {
+  display: flex;
+  box-shadow: none;
+  justify-content: center;
+  width: 95vw;
+}
+header .app-header .header-nav ul, header .app-header .header-nav li {
+  list-style-type: "";
+}
+header .app-header .header-utils {
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  margin: 0.75rem 0 0;
+}
+header .app-header .header-utils .icon {
+  margin-right: 2rem;
+}
+@media (max-width: 616px) {
+  header .app-header .header-utils {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+main {
+  padding: 1rem 2rem 2rem;
+}
+main h2 > .saltIcon {
+  margin-right: 1rem;
+}
+main code {
+  color: #6300FF;
+  font-size: 1.3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+main img.avatar {
+  width: 10rem;
+}
+main img.fluid {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+main .right {
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+main .card-content {
+  padding: 0 1rem 1rem;
+}
+main .card-content ul, main .card-content ol {
+  margin-left: 2rem;
+}
+main .card-content ol {
+  list-style-type: lower-roman;
+}
+main .card-content p, main .card-content ul, main .card-content ol {
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+main ul.agile-nav {
+  display: block;
+  width: 300px;
+  list-style-type: none;
+  padding: 0;
+}
+main ul.agile-nav li {
+  padding: 0;
+  margin-bottom: 0.25rem;
+  list-style-type: none;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+main ul.agile-nav li a {
+  display: block;
+  padding: 1rem 2rem;
+}
+main ul.agile-nav li a:hover {
+  background: #444;
+  color: white;
+}
+@media (max-width: 1024px) {
+  main ul.agile-nav {
+    width: 100%;
+  }
+  main ul.agile-nav li a {
+    padding: 0.5rem 0.75rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

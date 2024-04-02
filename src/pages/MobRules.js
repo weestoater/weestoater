@@ -4,16 +4,16 @@ import { FlexLayout, FlexItem, NavigationItem } from "@salt-ds/core";
 
 import { PageTitleH1 } from "../components/global/pageTitleHeading";
 
-import { AgilePractices } from "../content/agile/agilepractices";
+import { MobRulesContent } from "../content/agile/mobrules";
 
-export const AgilePage = () => {
+export const MobRules = () => {
   return (
     <>
       <PageTitleH1 title="Agile" />
 
       <FlexLayout>
         <FlexItem>
-          <AgilePractices />
+          <MobRulesContent />
         </FlexItem>
         <FlexItem>
           <ul className="agile-nav">

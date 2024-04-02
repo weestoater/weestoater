@@ -121,4 +121,39 @@ main {
             margin-bottom: 1rem;
         }
     }
+
+    ul.agile-nav {
+        display: block;
+        width: 300px;
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            padding: 0;
+            margin-bottom: .25rem;
+            list-style-type: none;
+            border: 1px solid #ccc;
+            text-align: center;
+
+            a {
+                display: block;
+                padding: 1rem 2rem;
+                &:hover {
+                    background: #444;
+                    color: white;
+                }
+            }
+        }
+        @media (max-width: 1024px) {
+            width: 100%;
+
+            li {
+
+                a {
+                    padding: .5rem .75rem;
+                }
+            }
+        }
+
+    }
 }
