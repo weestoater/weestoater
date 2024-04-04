@@ -34,8 +34,9 @@ export const SaltPost = () => {
           In a recent change of plan I've decided to ditch my AWS hosting for
           weestoater &amp; other side projects, in order to focus on getting to
           know the <strong>Salt Design System</strong>. This is an open-source
-          offering from J.P. Morgan which I am trying to get to grips with,
-          after years of using <code>Bootstrap</code> based design systems.
+          offering from J.P.Morgan Chase Co. which I am trying to get to grips
+          with, after years of using <code>Bootstrap</code> based design
+          systems.
         </p>
 
         <p>
