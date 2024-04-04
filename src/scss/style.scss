@@ -105,6 +105,12 @@ main {
         float: right;
         margin: 0 0 1rem 1rem;
     }
+    .left {
+        float: left;
+        margin: 0 1rem 1rem 0;
+    }
+    .w5 {max-width: 5rem;}
+    .w10 { max-width: 10rem; }
     .card-content {
         padding: 0 1rem 1rem;
 
