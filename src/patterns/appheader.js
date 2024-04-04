@@ -24,7 +24,7 @@ export const Header = () => {
     false
   );
 
-  const items = ["Home", "About", "A11y", "Agile"];
+  const items = ["Home", "About", "A11y", "Agile", "React"];
   const [active, setActive] = useState(items[0]);
 
   return (
@@ -89,9 +89,7 @@ export const Header = () => {
           <></>
         )}
         <FlexItem className="header-utils">
-          <Button variant="secondary" className="icon">
-            <GithubIcon aria-label="github link" />
-          </Button>
+          <GithubIcon className="icon" />
         </FlexItem>
       </StackLayout>
     </header>

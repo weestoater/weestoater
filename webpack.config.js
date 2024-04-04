@@ -10,7 +10,6 @@ const commonConfig = {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "build"),
     chunkFilename: "assets/img/[name].[ext]",
-    clean: true,
   },
   module: {
     rules: [
