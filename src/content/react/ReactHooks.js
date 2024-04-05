@@ -6,7 +6,7 @@ export const ReactHooksPost = () => {
   return (
     <Card>
       <h2>
-        <StorageIcon size="2" /> react hooks
+        <StorageIcon size="2" /> hook, line &amp; sinker
       </h2>
       <div className="card-content">
         <p>

@@ -1989,6 +1989,18 @@ acorn@^8.1.0, acorn@^8.7.1, acorn@^8.8.1, acorn@^8.8.2, acorn@^8.9.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.11.3.tgz#71e0b14e13a4ec160724b38fb7b0f233b1b81d7a"
   integrity sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==
 
+ag-charts-community@^9.2.0:
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/ag-charts-community/-/ag-charts-community-9.2.0.tgz#7c4a1af655f4e76b0793e6cc690b4713bd68513c"
+  integrity sha512-dS5nPExh81owIIdyHli0TvWvSyhmZy2RncM/s3/KXpjAf3eiVN2fxfT2z+QxqsLyoms+fernp5cAuSju0peYXw==
+
+ag-charts-react@^9.2.1:
+  version "9.2.1"
+  resolved "https://registry.yarnpkg.com/ag-charts-react/-/ag-charts-react-9.2.1.tgz#b1c47434a6391619267af38b3e6c49e542663921"
+  integrity sha512-BtR0ybXmTCS0l2vcU/MrK773Z3j7rEqeQHyNaeDQ2QWEaxn5pW2mubPPN+Xpq+kuM3coX47hC8bK884pMXqI4g==
+  dependencies:
+    prop-types "^15.6.2"
+
 agent-base@6:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
@@ -4756,7 +4768,7 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
-prop-types@^15.5.10:
+prop-types@^15.5.10, prop-types@^15.6.2:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==

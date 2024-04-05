@@ -1,0 +1,21 @@
+import React from "react";
+
+export const CardsDetails = ({ cards }) => {
+  return (
+    <>
+      <p>
+        <strong>Cards</strong>:
+      </p>
+      <ul className="no-bullets">
+        {cards.map((item, key) => {
+          return (
+            <li key={key}>
+              <div className={`cards ${item.card}`}></div>
+              <strong>{item.player}</strong> - {item.mins} mins
+            </li>
+          );
+        })}
+      </ul>
+    </>
+  );
+};

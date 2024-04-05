@@ -8,8 +8,7 @@
     "build:dev": "webpack --mode=development",
     "dev": "webpack-dev-server --mode=development --progress",
     "sass": "sass -w src/scss/style.scss:src/css/style.css",
-    "test": "echo 'not configured yet'",
-    "test:local": "jest",
+    "test": "jest --watch",
     "test:coverage": "jest --coverage"
   },
   "repository": {
@@ -33,6 +32,8 @@
     "@testing-library/user-event": "^14.5.2",
     "@types/react": "^18.2.69",
     "@types/react-dom": "^18.2.22",
+    "ag-charts-community": "^9.2.0",
+    "ag-charts-react": "^9.2.1",
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^6.10.0",
     "eslint": "^8.57.0",

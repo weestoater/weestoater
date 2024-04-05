@@ -2,18 +2,18 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { FlexLayout, FlexItem, NavigationItem } from "@salt-ds/core";
 
-import { PageTitleH1 } from "../components/global/pageTitleHeading";
+import { PageTitleH1 } from "../../components/global/pageTitleHeading";
 
-import { MobRulesContent } from "../content/agile/mobrules";
+import { AgilePractices } from "../../content/agile/agilepractices";
 
-export const MobRules = () => {
+export const AgilePage = () => {
   return (
     <>
       <PageTitleH1 title="Agile" />
 
       <FlexLayout>
         <FlexItem>
-          <MobRulesContent />
+          <AgilePractices />
         </FlexItem>
         <FlexItem>
           <ul className="agile-nav">
