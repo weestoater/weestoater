@@ -28,15 +28,15 @@ export const WhatIsWeestoater = () => {
         </ul>
 
         <p>
-          This current itteration is ReactJS and Salt-DS. It is a site for me to
+          This current version is ReactJS and Salt-DS. It is a site for me to
           play with and learn more about ReactJS and Salt-DS, as I use both
-          technologies in my day job, as well as Angular; Node; Cypress,
-          Playwright and multiple CSS frameworks.
+          technologies in my day job, as well as Angular; Node; Cypress;
+          Playwright; Jest; Testing-Libraries and multiple CSS frameworks.
         </p>
 
         <p>
           I also want to use it to trial different experiments and implement the
-          fabulous React Testing Library based on the amazing{" "}
+          fabulous React Testing Library having completed the{" "}
           <a
             href="http://www.testingjavascript.com/"
             target="_blank"
@@ -44,8 +44,8 @@ export const WhatIsWeestoater = () => {
           >
             testing javascript
           </a>{" "}
-          course from the amazing <strong>Kent C. Dodds</strong>. I work very
-          heavily in Accessibility and I would like to flex some testing muscles
+          course by <strong>Kent C. Dodds</strong>. I work heavily in
+          Accessibility (A11y) and I would like to flex some testing muscles
           too.
         </p>
       </div>

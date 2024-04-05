@@ -36,28 +36,35 @@ export const SaltPost = () => {
         <p>
           In a recent change of plan I've decided to ditch my AWS hosting for
           weestoater &amp; other side projects, in order to focus on getting to
-          know the <strong>Salt Design System</strong>. This is an open-source
-          offering from J.P.Morgan Chase Co. which I am trying to get to grips
-          with, after years of using <code>Bootstrap</code> based design
-          systems.
+          know the{" "}
+          <a
+            href="https://www.saltdesignsystem.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Salt Design System
+          </a>
+          . This is an open-source offering from J.P.Morgan which I am trying to
+          get to grips with, after years of using <code>Twitter Bootstrap</code>{" "}
+          based design systems.
         </p>
 
         <div class="left w5">
           <Dial color={"#193549"} />
         </div>
         <p>
-          It only offers support for <strong>React</strong>, so in keeping with
-          that I'm parking my experimentations with NextJS for a while - wasn't
-          finding a lot of time on it to be honest. Instead, I'm concentrating
-          on refactoring out the <em>Twitter Bootstrap</em> layout of
-          weestoater, for a <strong>@salt-ds</strong> one instead.
+          It only supports for <strong>React</strong>, so I'm parking my
+          experimentations with NextJS for a while, as I wasn't finding a lot of
+          time on it to be honest. Instead, I'm concentrating on refactoring out
+          the <code>Bootstrap</code> layout ofweestoater, for a{" "}
+          <strong>@salt-ds</strong> one instead.
         </p>
         <p>
           Like all learning curves there have been some frustrations -
           <Tooltip content="Problem in chair not in computer">
             <Button variant="secondary">picnic</Button>
           </Tooltip>{" "}
-          - but that is where I am finding my biggest reward. getting into the
+          - but that is where I'm finding my biggest reward. getting into the
           challenge of any refactor is interesting, adding a different design
           system into the mix has made it all the more enjoyable for me.
         </p>
@@ -92,8 +99,8 @@ export const SaltPost = () => {
         <p>
           One minor deviation from <strong>PURE salt-ds</strong> is that I've
           added another couple of icon libraries, to make the content on the
-          site more interesting. Icons are not extensive in the salt-ds,
-          certainly not as many as the likes of bootstrap. so I've plumped for{" "}
+          site more interesting. Icons are not as extensive in salt-ds, as say
+          the likes of bootstrap. so I've plumped for{" "}
           <a href="https://pebble.framer.media/" target="_blank" rel="noopener">
             Pebble icons
           </a>{" "}
