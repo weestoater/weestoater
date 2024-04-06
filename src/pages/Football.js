@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
   Card,
   GridLayout,
@@ -14,17 +14,11 @@ import { MatchDetails } from "../components/football/matchDetails";
 import { GoalScorerDetails } from "../components/football/goalScorerDetails";
 
 import mfcLogo from "../assets/img/mfclogo.png";
-
 import mfcGoals from "../data/mfc-goals.json";
 import mfcMatches from "../data/mfc-matches.json";
 
 export const FootballPage = () => {
   const seasons = ["2023-2024", "2022-2023", "2021-2022", "2020-2021"];
-
-  const [matchSeason, setMatchSeason] = useState(null);
-  const [matchDetails, setMatchDetails] = useState(null);
-  const [goalsSeason, setGoalsSeason] = useState(null);
-  const [goalsDetails, setGoalsDetails] = useState(null);
 
   return (
     <>
@@ -73,11 +67,6 @@ export const FootballPage = () => {
 
       <Tabs>
         {seasons.map((item, key) => {
-          // setMatchSeason(mfcMatches[key].season);
-          // setMatchDetails(mfcMatches[key].details);
-          // setGoalsSeason(mfcGoals[key].season);
-          // setGoalsDetails(mfcGoals[key].details);
-
           return (
             <TabPanel label={item} key={key} className="tab-panels">
               <>

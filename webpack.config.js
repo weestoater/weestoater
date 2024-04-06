@@ -62,6 +62,7 @@ const commonConfig = {
   resolve: {
     alias: {
       config$: "./configs/app-config.js",
+      react: "./vendor/react-master",
     },
     extensions: [".js", ".jsx"],
   },

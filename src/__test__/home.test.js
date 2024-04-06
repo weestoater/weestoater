@@ -3,9 +3,9 @@ import React from "react";
 import { HomePage } from "../pages/Home";
 
 describe("Home page", () => {
-  test("renders correctly", () => {
+  test("renders h1 correctly ", () => {
     render(<HomePage />);
-    const heading = screen.getByText(/welcome/i);
+    const heading = screen.getByTestId("page-title");
     expect(heading).toBeInTheDocument();
   });
 

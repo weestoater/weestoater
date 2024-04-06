@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { FlexLayout, FlexItem, NavigationItem } from "@salt-ds/core";
+import { FlexLayout, FlexItem } from "@salt-ds/core";
 
 import { PageTitleH1 } from "../../components/global/pageTitleHeading";
 
