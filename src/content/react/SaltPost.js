@@ -15,8 +15,7 @@ import {
 } from "@salt-ds/icons";
 import SaltDSImg from "../../assets/img/salt-ds.png";
 
-import { Dial, Piston } from "pebble-icons";
-import { Armchair } from "@phosphor-icons/react";
+import { Armchair, Engine, Gauge } from "@phosphor-icons/react";
 
 export const SaltPost = () => {
   return (
@@ -49,9 +48,6 @@ export const SaltPost = () => {
           based design systems.
         </p>
 
-        <div class="left w5">
-          <Dial color={"#193549"} />
-        </div>
         <p>
           It only supports for <strong>React</strong>, so I'm parking my
           experimentations with NextJS for a while, as I wasn't finding a lot of
@@ -59,6 +55,9 @@ export const SaltPost = () => {
           the <code>Bootstrap</code> layout ofweestoater, for a{" "}
           <strong>@salt-ds</strong> one instead.
         </p>
+        <div className="left w5">
+          <Gauge size={64} />
+        </div>
         <p>
           Like all learning curves there have been some frustrations -
           <Tooltip content="Problem in chair not in computer">
@@ -77,11 +76,9 @@ export const SaltPost = () => {
           system and made me rethink the way I look at content layouts after
           years of <code>css:grid</code> offerings.
         </p>
-
-        <div class="left w5">
-          <Piston color={"#193549"} />
+        <div className="left w5">
+          <Engine size={64} />
         </div>
-
         <p>
           I've also taken the opportunity to introduce{" "}
           <Tooltip content="Test Driven Development">
@@ -101,11 +98,7 @@ export const SaltPost = () => {
           added another couple of icon libraries, to make the content on the
           site more interesting. Icons are not as extensive in salt-ds, as say
           the likes of bootstrap. so I've plumped for{" "}
-          <a href="https://pebble.framer.media/" target="_blank" rel="noopener">
-            Pebble icons
-          </a>{" "}
-          &amp;{" "}
-          <a href="https://phosphoricons.com/" target="_blank" rel="noopener">
+          <a href="https://phosphoricons.com/" target="_blank" rel="noreferrer">
             Phosphor
           </a>
           .
