@@ -10,7 +10,10 @@ export const CardsDetails = ({ cards }) => {
         {cards.map((item, key) => {
           return (
             <li key={key}>
-              <div className={`cards ${item.card}`}></div>
+              <div
+                className={`cards ${item.card}`}
+                data-testid={`${item.card}card${key}`}
+              ></div>
               <strong>{item.player}</strong> - {item.mins} mins
             </li>
           );
