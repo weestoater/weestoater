@@ -11,7 +11,6 @@ import {
 } from "@salt-ds/core";
 
 import { MenuIcon, GithubIcon } from "@salt-ds/icons";
-
 import wsIcon from "../assets/img/weestoater-icon.png";
 
 export const Header = () => {

@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import React from "react";
-import { PageTitleH1 } from "../components/global/pageTitleHeading";
+import { PageTitleH1 } from "../../components/global/pageTitleHeading";
 
 describe("PageTitleH1 component", () => {
   test("renders `title` as set", () => {
