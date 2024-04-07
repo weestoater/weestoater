@@ -11,9 +11,8 @@ export const FootballIntro = () => {
           <img src={mfcLogo} className="fluid" alt="Motherwell F.C. logo" />
         </div>
         <p>
-          I'm a Motherwell F.C. supporter and have been since I met my beautiful
-          wife and went along to my first game with my father-in-law and
-          sister-in-law.
+          I'm a Motherwell supporter &amp; have been since I met my beautiful
+          wife, back in '07 &amp; went to my first game with my now in-laws.
         </p>
         <p>
           Sadly, for many different reasons, I don't get along to as many

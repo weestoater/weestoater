@@ -19,6 +19,10 @@
         .venue, .score {
             text-align: center;
         }
+
+        @media(max-width: 616px) {
+            grid-template-columns: 1fr;
+        }
     }
 
     ul.no-bullets {
@@ -66,6 +70,13 @@
 .score-details {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1;
+
+    @media(max-width: 616px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2;
+    }
+
 }
 .cards {
     display: inline-block;
