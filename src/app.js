@@ -8,9 +8,7 @@ import { Header } from "./patterns/appheader";
 import { HomePage } from "./pages/Home";
 import { AboutPage } from "./pages/About";
 import { A11yPage } from "./pages/A11y";
-import { AgilePage } from "./pages/agile/Agile";
-import { MobRules } from "./pages/agile/MobRules";
-import { LessonsLearned } from "./pages/agile/LessonsLearned";
+import { AgilePage } from "./pages/Agile";
 import { FootballPage } from "./pages/Football";
 import { ReactPage } from "./pages/React";
 
@@ -25,8 +23,6 @@ export const App = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/a11y" element={<A11yPage />} />
           <Route path="/agile" element={<AgilePage />} />
-          <Route path="/lessonslearned" element={<LessonsLearned />} />
-          <Route path="/mobrules" element={<MobRules />} />
           <Route path="/football" element={<FootballPage />} />
           <Route path="/react" element={<ReactPage />} />
         </Routes>
