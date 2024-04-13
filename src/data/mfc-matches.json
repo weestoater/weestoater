@@ -3,6 +3,21 @@
         "season": "2023-24",
         "details": [
             {
+                "scored": 1,
+                "conceded": 1,
+                "date": "13/04/24",
+                "opposition": "Hibernian",
+                "venue": "Home",
+                "league": null,
+                "goals": [
+                    {
+                        "player": "Shane Blaney",
+                        "mins": "90 + 4"
+                    }
+                ],
+                "notes": "A scrappy affair by the radio commentary. With a much deserved equaliser from the Well in the last minute of the game. Both teams firmly land in the bottom six for the final period of the season."
+            },
+            {
                 "scored": 3,
                 "conceded": 2,
                 "date": "06/04/24",

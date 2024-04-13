@@ -25,6 +25,10 @@
         {
             "player": "Jonathan Obika",
             "goals": 3
+        },
+        {
+            "player": "Shane Blaney",
+            "goals": 2
         },        
         {
             "player": "Lennon Miller",
@@ -68,10 +72,6 @@
         },
         {
             "player": "Adam Devine",
-            "goals": 1
-        },
-        {
-            "player": "Shane Blaney",
             "goals": 1
         }
     ]    
