@@ -40,8 +40,9 @@ export const GoalScorerDetails = ({ details }) => {
     },
     theme: {},
   };
+
   return (
-    <div className="goal-scorers">
+    <div className="goal-scorers" data-testid="goalscorers-pie-chart">
       <AgChartsReact options={_options} />
     </div>
   );

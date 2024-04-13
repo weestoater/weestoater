@@ -4,31 +4,28 @@
     "details": [
         {
             "player": "Theo Bair",
-            "goals": 7
+            "goals": 13
         },
         {
             "player": "Blair Spittal",
-            "goals": 7
+            "goals": 9
+        },
+        {
+            "player": "Mika Biereth",
+            "goals": 6
+        },
+        {
+            "player": "Conor Wilkinson",
+            "goals": 4
         },        
         {
             "player": "Callum Slattery",
-            "goals": 5
-        },
-        
-        {
-            "player": "Mika Biereth",
-            "goals": 4
+            "goals": 3
         },        
         {
             "player": "Jonathan Obika",
             "goals": 3
-        },
-        
-        {
-            "player": "Conor Wilkinson",
-            "goals": 3
-        },
-        
+        },        
         {
             "player": "Lennon Miller",
             "goals": 2
@@ -39,6 +36,14 @@
         },
         {
             "player": "Dan Casey",
+            "goals": 2
+        },
+        {
+            "player": "Bevis Mugabi",
+            "goals": 2
+        },
+        {
+            "player": "Georgie Gent",
             "goals": 1
         },
         {
@@ -46,15 +51,27 @@
             "goals": 1
         },
         {
+            "player": "Ebiye Moses",
+            "goals": 1
+        },
+        {
             "player": "Harry Paton",
             "goals": 1
         },
         {
-            "player": "Bevis Mugabi",
+            "player": "Luca Ross",
             "goals": 1
         },
         {
-            "player": "Luca Ross",
+            "player": "Sam Nicholson",
+            "goals": 1
+        },
+        {
+            "player": "Adam Devine",
+            "goals": 1
+        },
+        {
+            "player": "Shane Blaney",
             "goals": 1
         }
     ]    

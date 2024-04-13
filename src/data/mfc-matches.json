@@ -3,6 +3,141 @@
         "season": "2023-24",
         "details": [
             {
+                "scored": 3,
+                "conceded": 2,
+                "date": "06/04/24",
+                "opposition": "Dundee",
+                "venue": "Away",
+                "league": null,
+                "goals": [
+                    {
+                        "player": "Georgie Gent",
+                        "mins": "79"
+                    },
+                    {
+                        "player": "Theo Bair",
+                        "mins": "81"
+                    },
+                    {
+                        "player": "Ebiye Moses",
+                        "mins": "90 + 3"
+                    }
+                ],
+                "video": "https://youtu.be/lHQmi1MsqQ0?si=vHhuxNYqZp-86hsp",
+                "notes": "Game should never have been allowed.  Pitch is a joke and potentially dangerous to play on - that said we pulled a victory out of the jaws of embarrasment."
+            },
+            {
+                "scored": 1,
+                "conceded": 1,
+                "date": "30/03/24",
+                "opposition": "St. Mirren",
+                "venue": "Home",
+                "league": null,
+                "goals": [
+                    {
+                        "player": "Theo Bair",
+                        "mins": "74"
+                    }
+                ],
+                "video": "https://youtu.be/E6GJVpAY5Tw?si=8gAGrUhlK78WplvC"
+            },
+            {
+                "scored": 0,
+                "conceded": 1,
+                "date": "16/03/24",
+                "opposition": "Aberdeen",
+                "venue": "Home",
+                "league": null,
+                "goals": null
+            },
+            {
+                "scored": 2,
+                "conceded": 1,
+                "date": "02/03/24",
+                "opposition": "Rangers",
+                "venue": "Away",
+                "league": null,
+                "goals": [
+                    {
+                        "player": "Theo Bair",
+                        "mins": "9"
+                    },
+                    {
+                        "player": "Dan Casey",
+                        "mins": "75"
+                    }
+                ],
+                "video": "https://youtu.be/hXU1TL_lHhw?si=PufXtO-wrh-lSZ1n",
+                "notes": "An historic victory for the Well against the Mighty Rangers. No surprises the home team gets a soft penalty. First win in the league for over 25 years apparently. Worth watching over and over again. Casey megged the goalie with a header from a beautiful cross... Kelly was heroic and McGinn saved the day with an off-the-line clearance. #coyw"
+            },
+            {
+                "scored": 3,
+                "conceded": 1,
+                "date": "28/02/24",
+                "opposition": "Livingston",
+                "venue": "Away",
+                "league": null,
+                "goals": [
+                    {
+                        "player": "Sam Nicholson",
+                        "mins": "49"
+                    },
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "71"
+                    },
+                    {
+                        "player": "Jack Vale",
+                        "mins": "87"
+                    }
+                ]
+            },
+            {
+                "scored": 1,
+                "conceded": 3,
+                "date": "25/02/24",
+                "opposition": "Celtic",
+                "venue": "Home",
+                "league": null,
+                "goals": [
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "43"
+                    }
+                ]
+            },
+            {
+                "scored": 0,
+                "conceded": 2,
+                "date": "17/02/24",
+                "opposition": "Hearts",
+                "venue": "Away",
+                "league": null,
+                "goals": null
+            },
+            {
+                "scored": 3,
+                "conceded": 3,
+                "date": "14/02/24",
+                "opposition": "Aberdeen",
+                "venue": "Away",
+                "league": null,
+                "goals": [
+                    {
+                        "player": "Theo Bair",
+                        "mins": "5 pen"
+                    },
+                    {
+                        "player": "Theo Bair",
+                        "mins": "22"
+                    },
+                    {
+                        "player": "Adam Devine",
+                        "mins": "26"
+                    }
+                ]
+            },
+            {
                 "scored": 1,
                 "conceded": 2,
                 "date": "09/02/24",
