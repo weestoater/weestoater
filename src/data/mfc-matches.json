@@ -15,7 +15,19 @@
                         "mins": "90 + 4"
                     }
                 ],
-                "notes": "A scrappy affair by the radio commentary. With a much deserved equaliser from the Well in the last minute of the game. Both teams firmly land in the bottom six for the final period of the season."
+                "cards": [
+                    {
+                        "player": "Blair Spittal",
+                        "card": "yellow",
+                        "mins":"56"
+                    },
+                    {
+                        "player": "Jack Vale",
+                        "card": "yellow",
+                        "mins":"45"
+                    }
+                ],
+                "notes": "A scrappy affair by the radio commentary, with a fair few bookings for the visitors. A much deserved equaliser from the 'Well in the last minute of the game. Both teams landing in the bottom six for the final games."
             },
             {
                 "scored": 3,
