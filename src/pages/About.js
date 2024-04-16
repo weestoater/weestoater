@@ -11,10 +11,10 @@ export const AboutPage = () => {
       <PageTitleH1 title="About weestoater" />
       <GridLayout columns={{ xs: 1, sm: 2, md: 3, lg: 3, xl: 4 }}>
         <GridItem>
-          <WhatIsWeestoater />
+          <WhoIsWeestoater />
         </GridItem>
         <GridItem>
-          <WhoIsWeestoater />
+          <WhatIsWeestoater />
         </GridItem>
       </GridLayout>
     </>

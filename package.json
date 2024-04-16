@@ -45,6 +45,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest-environment-jsdom": "^29.7.0",
     "raw-loader": "^4.0.2",
+    "react-router-hash-link": "^2.4.3",
     "react-test-renderer": "^18.2.0",
     "sass": "^1.72.0",
     "sass-loader": "^14.1.1",
