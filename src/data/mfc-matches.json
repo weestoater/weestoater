@@ -3,6 +3,22 @@
         "season": "2023-24",
         "details": [
             {
+                "scored": 0,
+                "conceded": 1,
+                "date": "27/04/24",
+                "opposition": "Aberdeen",
+                "venue": "Away",
+                "league": null,
+                "goals": null,
+                "cards": [
+                    {
+                        "player": "Jack Vale",
+                        "card": "red",
+                        "mins":"56"
+                    }
+                ],
+                "notes": "An unimpressive start to the post-split games, and a long journey home to lick our wounds. Commentary says referee was not great, but that's no excuse. No goals scored and a man down for the majority of the second half - however reckless or not - isn't the performance the manager or supporters are expecting."
+            },{
                 "scored": 1,
                 "conceded": 1,
                 "date": "13/04/24",
