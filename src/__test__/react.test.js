@@ -9,19 +9,24 @@ describe("React page", () => {
     expect(heading).toBeInTheDocument();
   });
 
-  test("renders what is weestoater heading", () => {
+  test("renders vite + react-ts", () => {
+    render(<ReactPage />);
+    const heading = screen.getByText(/vite and react-ts/i);
+    expect(heading).toBeInTheDocument();
+  });
+  test("renders needs a little salt", () => {
     render(<ReactPage />);
     const heading = screen.getByText(/needs a little salt/i);
     expect(heading).toBeInTheDocument();
   });
 
-  test("renders who is weestoater heading", () => {
+  test("renders nextjs things next", () => {
     render(<ReactPage />);
     const heading = screen.getByText(/nextjs things next/i);
     expect(heading).toBeInTheDocument();
   });
 
-  test("renders who is weestoater heading", () => {
+  test("renders hook, line & sinker", () => {
     render(<ReactPage />);
     const heading = screen.getByText(/hook, line & sinker/i);
     expect(heading).toBeInTheDocument();
